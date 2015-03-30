@@ -29,8 +29,8 @@ App Features
 
 Ruminate Home Page
 -------------------
-![index view](app/assests/images/index.png)
+![index view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/index.png)
 
 Ruminate Show Page
 -------------------
-![show view](app/assests/images/show.png)
+![show view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/show.png)
