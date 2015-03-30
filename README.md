@@ -29,8 +29,8 @@ App Features
 
 Ruminate Home Page
 -------------------
-![index view](images/index.png)
+![index view](app/assests/images/index.png)
 
 Ruminate Show Page
 -------------------
-![show view](images/show.png)
+![show view](app/assests/images/show.png)
