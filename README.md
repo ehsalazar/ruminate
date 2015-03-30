@@ -25,4 +25,12 @@ App Features
 - A user's post includes an image, title, description and link.
 - A user can add multiple comments to posts.
 - A user can 'like' or 'dislike' posts.
+- A post show view can include a random post snippet to increase site click through.
 
+Ruminate Home Page
+-------------------
+![index view](images/index.png)
+
+Ruminate Show Page
+-------------------
+![show view](images/show.png)
