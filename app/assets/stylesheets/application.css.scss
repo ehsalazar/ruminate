@@ -16,6 +16,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.wrapper_with_padding {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+}
+
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;

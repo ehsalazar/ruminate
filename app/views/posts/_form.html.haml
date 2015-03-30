@@ -1,7 +1,23 @@
 = simple_form_for @post do |f|
   = f.input :image
-  = f.input :title
-  = f.input :link
-  = f.input :description
+  %br/
+  %br/
+  = f.label :title
+  %br/
+  = f.input_field :title
+  %br/
+  %br/
+  = f.label :link
+  %br/
+  = f.input_field :link
+  %br/
+  %br/
+  = f.label :description
+  %br/
+  = f.input_field :description
+  %br/
+  %br/
 
   = f.button :submit
+  %br/
+  %br/
