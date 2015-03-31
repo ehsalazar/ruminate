@@ -1,6 +1,10 @@
 Ruminate
 ===================
 
+Home Page
+-------------------
+![index view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/index.png)
+
 Project
 -------------------
 Build a [Dribbble](https://dribbble.com/) like inspiration application utilizing HAML instead of ERB with an emphasis on styling without the use of Bootstrap.
@@ -27,10 +31,6 @@ App Features
 - A user can 'like' or 'dislike' posts.
 - A post show view can include a random post snippet to increase site click through.
 
-Ruminate Home Page
--------------------
-![index view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/index.png)
-
-Ruminate Show Page
+Show Page
 -------------------
 ![show view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/show.png)
