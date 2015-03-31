@@ -53,6 +53,7 @@
         = comment.content
         %span
           - if comment.user == current_user
-            %i.fa.fa-trash-o
+            = link_to [comment.post, comment], method: :delete, data: { confirm: "Are you sure?" } do
+              %i.fa.fa-trash-o
 
   = render "comments/form"
