@@ -1,10 +1,6 @@
 Ruminate
 ===================
 
-Home Page
--------------------
-![index view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/index.png)
-
 Project
 -------------------
 Build a [Dribbble](https://dribbble.com/) like inspiration application utilizing HAML instead of ERB with an emphasis on styling without the use of Bootstrap.
@@ -21,6 +17,9 @@ Utilized the following project specific gems:
 - `gem 'acts_as_votable'`
   - [Acts As Votable](https://github.com/ryanto/acts_as_votable) is a Ruby Gem specifically written for Rails/ActiveRecord models allowing for model to be voted on, like/dislike, upvote/downvote, etc. Used here to 'thumb up/down' particular posts.
 
+Home Page
+-------------------
+![index view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/index.png)
 
 App Features
 -------------------
