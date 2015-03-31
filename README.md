@@ -17,9 +17,9 @@ Utilized the following project specific gems:
 - `gem 'acts_as_votable'`
   - [Acts As Votable](https://github.com/ryanto/acts_as_votable) is a Ruby Gem specifically written for Rails/ActiveRecord models allowing for model to be voted on, like/dislike, upvote/downvote, etc. Used here to 'thumb up/down' particular posts.
 
-Home Page
--------------------
-![index view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/index.png)
+<!-- Home Page
+-
+![index view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/index.png) -->
 
 App Features
 -------------------
@@ -30,6 +30,6 @@ App Features
 - A user can 'like' or 'dislike' posts.
 - A post show view can include a random post snippet to increase site click through.
 
-Show Page
--------------------
-![show view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/show.png)
+<!-- Show Page
+-
+![show view](https://github.com/ehsalazar/ruminate/blob/master/app/assets/images/show.png) -->
