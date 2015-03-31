@@ -18,7 +18,7 @@
       = link_to dislike_post_path(@post), method: :get, class: "data" do
         %i.fa.fa-thumbs-o-down
         = pluralize(@post.get_downvotes.size, "Dislike")
-      %p.data
+      %p.coms
         %i.fa.fa-comments-o
         = pluralize(@post.comments.count, "Comment")
       - if @post.user == current_user
@@ -49,6 +49,10 @@
   - @comments.each do |comment|
     .comment
       %p.username= comment.user.name
-      %p.content= comment.content
+      %p.content
+        = comment.content
+        %span
+          - if comment.user == current_user
+            %i.fa.fa-trash-o
 
   = render "comments/form"
