@@ -2,6 +2,23 @@
  *= require_self
  */
 
+#notice_wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background: rgba(80, 167, 199, 0.75);
+  .alert, .notice {
+      padding: 2.5rem 0;
+      text-align: center;
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: 1px;
+  }
+}
+
 body {
   font-family: "Proxima Nova";
   font-weight: 100;
